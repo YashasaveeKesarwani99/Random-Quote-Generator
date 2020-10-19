@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat:wght@500&family=Sansita+Swashed:wght@700&display=swap");
+body {
+  background: linear-gradient(to right, #d8f863, #2de6ae);
+  height: 100vh;
+}
+.notes {
+  text-align: center;
+
+  padding: 7px;
+}
+.head {
+  text-align: center;
+  font-family: "Lemonada", cursive;
+}
+.outer {
+  border-radius: 20px;
+  margin-top: auto;
+  display: block;
+  margin: auto;
+  width: 40%;
+  background: linear-gradient(rgb(241, 238, 238), rgb(212, 210, 206));
+  box-shadow: 0 0 10px #000000;
+  margin-top: 8%;
+}
+.fa-twitter {
+  color: rgb(63, 147, 202);
+  font-size: 2rem;
+  text-align: left;
+  padding: 7px;
+  padding-left: 17px;
+}
+button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  margin-top: 3%;
+  border-radius: 7px;
+  text-align: right;
+  margin-left: 67%;
+  margin-bottom: 2%;
+  outline: none;
+  background: rgb(241, 233, 233);
+}
+h3,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Sansita Swashed", cursive;
+}
+i {
+  font-size: 3rem;
+}
